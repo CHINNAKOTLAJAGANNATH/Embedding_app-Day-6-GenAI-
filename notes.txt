@@ -1,0 +1,41 @@
+Pick dataset obtained with any two chunking methods applied previously
+- Apply embeddings on the chunked datasets using SentenceTransformer
+
+- Applying SentenceTransformer embeddings to text datasets 
+prepared using two different chunking methods(character_split, recursive_split) for semantic analysis and comparison.
+
+
+# run locally
+
+# python -m venv .venv  
+# .\.venv\Scripts\activate
+
+# pip install -r requirements.txt
+
+# streamlit run app.py
+# or
+
+# 1. Deploy to Streamlit Cloud
+# - Files Push to GitHub
+# - Connect GitHub repo to Streamlit Cloud
+
+# 2. Go to https://streamlit.io/cloud
+https://embeddingappday6genai.streamlit.app/
+
+# 3. Login → New app → Connect GitHub → Select repo → Deploy
+
+# our app is doing what it should: chunking + embedding + displaying vectors.
+
+# Text Chunking & Embedding App A Streamlit app to visualize text chunking (Character/Recursive) and SentenceTransformer embeddings. 
+# Features - Two chunking methods 
+            - Embedding generation with SentenceTransformer 
+            - Frontend with Streamlit ## Run Locally 
+
+✅ Frontend – Streamlit:
+I created a Streamlit (app.py) and ran the app locally using Streamlit.
+
+✅ Deployed – Streamlit Cloud:
+I attempted deployment on Streamlit Cloud using a custom app name and repository setup.
+
+✅ Version Control – GitHub:
+I created a GitHub repository CHINNAKOTLAJAGANNATH/Embedding_app_Day6_GenAI, initialized Git locally, committed files, and pushed code (with minor conflicts resolved).
